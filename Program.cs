@@ -2,7 +2,7 @@
 
 while (isWork)
 {
-    Console.Write("Введите номер задания ");
+    Console.Write("Введите номер задания: ");
 
     if (int.TryParse(Console.ReadLine(), out int i));
     {
@@ -10,7 +10,7 @@ while (isWork)
         {
             case 1:
             {
-                Console.Write("Введите два числа ");
+                Console.Write("Введите два числа: ");
 
                 int a = int.Parse(Console.ReadLine());
                 int b = int.Parse(Console.ReadLine());
@@ -22,7 +22,7 @@ while (isWork)
             
             case 2:
             {
-                Console.Write("Введите три числа ");
+                Console.Write("Введите три числа: ");
 
                 int a = int.Parse(Console.ReadLine());
                 int b = int.Parse(Console.ReadLine());
@@ -36,7 +36,7 @@ while (isWork)
 
             case 3:
             {
-                Console.Write("Введите число ");
+                Console.Write("Введите число: ");
 
                 int a = int.Parse(Console.ReadLine());
 
@@ -50,7 +50,7 @@ while (isWork)
 
             case 4:
             {
-                Console.Write("Введите число ");
+                Console.Write("Введите число: ");
 
                 int a = int.Parse(Console.ReadLine());
                 int b = 1;
